@@ -1,9 +1,6 @@
 /*
  * Drop down
  */
-/*
- * dropdown
- */
 package ex1;
 
 
