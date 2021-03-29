@@ -41,8 +41,8 @@ public class Alert {
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		Thread.sleep(3000);
 		
-		driver.findElement(By.className("btn-lg")).click();
-		Thread.sleep(3000);
+		driver.findElement(By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[3]/div[2]/button")).click();
+		Thread.sleep(1000);
 		//to handle javascript enter details
 		driver.switchTo().alert().sendKeys("hello");
 		Thread.sleep(3000);
